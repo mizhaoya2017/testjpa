@@ -1,8 +1,8 @@
 package com.mzy.testjpa.service.impl;
 
-import com.willam.Dao.UserDao;
-import com.willam.Service.UserService;
-import com.willam.domain.User;
+import com.mzy.testjpa.dao.UserDao;
+import com.mzy.testjpa.domain.User;
+import com.mzy.testjpa.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

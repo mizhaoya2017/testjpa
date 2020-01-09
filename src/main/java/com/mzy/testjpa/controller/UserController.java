@@ -1,7 +1,7 @@
-package com.mzy.testjpa.Controller;
+package com.mzy.testjpa.controller;
 
-import com.willam.Service.UserService;
-import com.willam.domain.User;
+import com.mzy.testjpa.domain.User;
+import com.mzy.testjpa.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,7 +21,7 @@ public class UserController {
     UserService userService;
 
     /**
-     * 查询所有用户
+     * 查询所有用户c
      * @return
      */
     @RequestMapping("/findAll")

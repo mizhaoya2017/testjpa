@@ -1,6 +1,7 @@
-package com.mzy.testjpa.Service;
+package com.mzy.testjpa.service;
 
-import com.willam.domain.User;
+
+import com.mzy.testjpa.domain.User;
 
 import java.util.List;
 

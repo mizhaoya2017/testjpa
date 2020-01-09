@@ -1,6 +1,6 @@
-package com.mzy.testjpa.Dao;
+package com.mzy.testjpa.dao;
 
-import com.willam.domain.User;
+import com.mzy.testjpa.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
